@@ -7,7 +7,6 @@ class Spoon < Formula
   depends_on "awscli"
   depends_on "csshx"
   depends_on "jq"
-  depends_on "peco"
 
   def install
     bin.install "spoon"
