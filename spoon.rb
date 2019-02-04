@@ -4,8 +4,6 @@ class Spoon < Formula
   url "https://github.com/endreymarcell/spoon/archive/v2.3.tar.gz"
   sha256 "20c4fa1ab1fa6cbfd0cbf15f1cd854c569a34f60245ac377f813da3431eb073f"
 
-  depends_on "awscli"
-  depends_on "jq"
 
   def install
     bin.install "spoon"
