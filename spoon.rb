@@ -1,8 +1,8 @@
 class Spoon < Formula
   desc "SSH into EC2 nodes easily"
   homepage "https://github.com/endreymarcell/spoon"
-  url "https://github.com/endreymarcell/spoon/archive/v2.1.tar.gz"
-  sha256 "0e43bf694e45e4ce83d9d4f2cba7a985a46a1e88a25240cc82c6f5053f83e3e0"
+  url "https://github.com/endreymarcell/spoon/archive/v2.3.tar.gz"
+  sha256 "20c4fa1ab1fa6cbfd0cbf15f1cd854c569a34f60245ac377f813da3431eb073f"
 
   depends_on "awscli"
   depends_on "jq"
