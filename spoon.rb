@@ -6,6 +6,6 @@ class Spoon < Formula
 
 
   def install
-    bin.install "spoon"
+    prefix.install "spoon", Dir["lib/*"]
   end
 end
